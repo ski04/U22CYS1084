@@ -1,18 +1,15 @@
-## Getting Started
+# Java Mini Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java program that functions as a mini calculator. It takes two integers and an operator (+, -, *, /) as input from the user and performs the corresponding calculation. The program limits the input numbers to at most 2 digits.
 
-## Folder Structure
+## Instructions
 
-The workspace contains two folders by default, where:
+1. Run the program in a Java environment.
+2. Enter the first number (up to 2 digits) when prompted.
+3. Enter the second number (up to 2 digits) when prompted.
+4. Enter an operator (+, -, *, /) when prompted.
+5. The program will display the result of the calculation.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Note: Division by zero and invalid operators are handled with appropriate error messages.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Feel free to explore and modify the code as needed!
